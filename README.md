@@ -1,21 +1,21 @@
 # tugas-pertemuan-ke-10
 # dictionary
-1. membuat kontak awal
+1. membuat kontak awal /
 ``` b = {'ari' : '085267888', 'dina' : 087677776} ```
-2. menampilkan kontak ari
+2. menampilkan kontak ari /
 ``` print(b['ari'])```
-3. menambhkan kontak riko
+3. menambhkan kontak riko /
 ``` b['riko']= 087888999```
-4. mengubah kontak dina
+4. mengubah kontak dina /
 ```b['dina]= '089555777```
-5. menampilkan semua nama
+5. menampilkan semua nama /
 ``` print(b.keys()) ```
-6. menampilkan semua nomor
+6. menampilkan semua nomor /
 ``` print(b.values()) ```
-7. menampilkan semua nama dan nomor
+7. menampilkan semua nama dan nomor /
 ``` print(b) ```
-8. menghapus kontak dina
-``` del b['dina'] ```
+8. menghapus kontak dina /
+``` del b['dina'] ``` /
 berikut adalah tampilan program di visual studio: /
 ![latihan1](gambar/latihan-1.png) \
 dan ini adalah hasil program nya: \
