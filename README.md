@@ -61,8 +61,8 @@ ini adalah contoh output untuk (t): \
 ini adalah contoh output untuk (u): \
 ![u](gambar/mengubah.png) \
 output pilihan (c): \
-![c](gambar/mencari.png)
+![c](gambar/mencari.png) \
 output pilihan (h): \
-![h](gambar/menghapus.png)
+![h](gambar/menghapus.png) \
 output l atau lihat :\
 ![l](gambar/menampilkan_data.png)
