@@ -41,7 +41,7 @@ if (c.lower() == 't'):
         dataMhs[nama]= nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir                         
         print("\nData Berhasil Ditambahkan!")```
 3. membuat percabangan elif untuk menjalankan pilihan yang lain
-```elif (c.lower() == 'u'):                                                                    
+elif (c.lower() == 'u'):                                                                    
         print('\nMengedit Data Mahasiswa')
         nama = input("Masukkan Nama: ")                                                         
         if nama in dataMhs.keys():                              
@@ -53,8 +53,8 @@ if (c.lower() == 't'):
             dataMhs[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir                      
             print("\nData Berhasil Di Update!")```
 4. menggunakan else apabila salah memasukan pilihan 
-```else:
-        print("Pilih menu yang tersedia: ") ```                                                  
+else:
+        print("Pilih menu yang tersedia: ")                                                   
 
 ini adalah contoh output untuk (t): \
 ![t](gambar/menambahkandata.png) \
