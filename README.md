@@ -17,7 +17,7 @@
 8. menghapus kontak dina
 ``` del b['dina'] ```
 berikut adalah tampilan program di visual studio: /
-![latihan1](gamabar/latihan-1.png) \
+![latihan1](gambar/latihan-1.png) \
 dan ini adalah hasil program nya: \
 ![hasil](gambar/hasil-program.png) \
 
@@ -31,7 +31,7 @@ flow chart: \
 ```
 2. membuat formatif if untuk memasukan pilihan , contoh pilihan (t): \
 if (c.lower() == 't'):                                               
-        print('\nTambah Data Mahasiswa Baru')
+      ```  print('\nTambah Data Mahasiswa Baru')
         nama= input("Masukkan Nama\t\t: ")                                        
         nim= input("Masukkan NIM\t\t: ")                                         
         nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))                              
@@ -39,9 +39,9 @@ if (c.lower() == 't'):
         nilaiUas= int(input("Masukkan Nilai UAS\t: "))                                    
         nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)              
         dataMhs[nama]= nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir                         
-        print("\nData Berhasil Ditambahkan!")
+        print("\nData Berhasil Ditambahkan!")```
 3. membuat percabangan elif untuk menjalankan pilihan yang lain
-elif (c.lower() == 'u'):                                                                    
+```elif (c.lower() == 'u'):                                                                    
         print('\nMengedit Data Mahasiswa')
         nama = input("Masukkan Nama: ")                                                         
         if nama in dataMhs.keys():                              
@@ -51,10 +51,10 @@ elif (c.lower() == 'u'):
             nilaiUas= int(input("Masukkan Nilai UAS\t: "))                           
             nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)          
             dataMhs[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir                      
-            print("\nData Berhasil Di Update!")
+            print("\nData Berhasil Di Update!")```
 4. menggunakan else apabila salah memasukan pilihan 
-else:
-        print("Pilih menu yang tersedia: ")                                                    
+```else:
+        print("Pilih menu yang tersedia: ") ```                                                  
 
 ini adalah contoh output untuk (t): \
 ![t](gambar/menambahkandata.png) \
@@ -63,6 +63,6 @@ ini adalah contoh output untuk (u): \
 output pilihan (c): \
 ![c](gambar/mencari.png)
 output pilihan (h): \
-![h](gambar/menghapus)
+![h](gambar/menghapus.png)
 output l atau lihat :\
 ![l](gambar/menampilkan_data.png)
